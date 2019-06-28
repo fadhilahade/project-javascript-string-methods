@@ -7,7 +7,7 @@ function rotate(newTextParameter) {
 
         fixedText +=
             newTextParameter.charCodeAt(i) >= 110 &&
-            newTextParameter.charCodeAt(i) <= 122 &&
+            newTextParameter.charCodeAt(i) <= 122 ||
             newTextParameter.charCodeAt(i) >= 78 &&
             newTextParameter.charCodeAt(i) <= 90 ?
             newTextParameter.charCodeAt(i) - 13 + " " :
